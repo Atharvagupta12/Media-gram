@@ -13,21 +13,23 @@
     referrerpolicy="no-referrer"
   />
   <link rel="stylesheet" href="home.css" />
-  <body>
+  <body >
     <section class="main">
       <div class="navbar" id="navbar">
         <a href="">
           <div class="logo"><h1>Mediagram</h1></div></a
         >
         <div class="search">
-          <button>
+          <button
+            aria-placeholder="Search Your Inspiration, creators and projects"
+          >
             <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
             &nbsp Search Your Inspiration, creators and projects
           </button>
         </div>
         <div class="buttons">
           <div class="loginin">
-            <a href=""><button>login-in</button></a>
+            <a href="login.html"><button>login-in</button></a>
           </div>
         </div>
       </div>
@@ -37,7 +39,11 @@
           <div class="sidebar">
             <div class="usera">
               <div class="profile-photo">
-                <img src="./Assets/42193.jpg" alt="" style="width: 180%" />
+                <img
+                  src="./Assets/42193.jpg"
+                  alt=""
+                  style="width: 180%; color: #000000"
+                />
               </div>
               <div class="info">
                 <h1>Atharva_gupta</h1>
@@ -76,21 +82,22 @@
                       &nbsp;
                     </i>
                     Messages
-                  </h3></a
-                >
+                  </h3>
+                </a>
               </div>
-              <div class="menuitems">
-                <a href=""
-                  ><h3>
-                    <i class="fa-solid fa-moon" style="color: #000000">
-                      &nbsp;
-                    </i>
-                    Theme
-                  </h3></a
-                >
+
+              <div class="menuitems" id="icon"> 
+          
+                <h3> 
+                  <i class="fa-solid fa-moon" style="color: #000000">
+                 </i> &nbsp; 
+                 Theme
+                </h3>
+              
               </div>
+
               <div class="menuitems">
-                <a href=""
+                <a href="index.html"
                   ><h3>
                     <i class="fa-solid fa-user" style="color: #000000">
                       &nbsp;
@@ -116,6 +123,16 @@
         <!-- feed -->
         <div class="middle">
           <h1>Discover your feed..</h1>
+          <br />
+          <div class="search2">
+            <button>
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #000000"
+              ></i>
+              &nbsp Search Your Inspiration, creators and projects
+            </button>
+          </div>
           <div class="feed">
             <div class="content">
               <div class="head">
@@ -198,7 +215,7 @@
                   </div>
                 </div>
                 <div class="photo">
-                  <img src="./Assets/SamplePhoto_1.jpg" alt="" />
+                  <img src="./Assets/download.jpeg" alt="" />
                 </div>
                 <div class="action-button">
                   <div class="interaction-buttons">
@@ -260,7 +277,193 @@
                   </div>
                 </div>
                 <div class="photo">
-                  <img src="./Assets/img4.jpeg" alt="" />
+                  <img src="./Assets/beach walk.jpeg" alt="" />
+                </div>
+                <div class="action-button">
+                  <div class="interaction-buttons">
+                    <span>
+                      <i
+                        onclick="Toggle(this)"
+                        id="btn2"
+                        class="fa-regular fa-heart"
+                      ></i
+                    ></span>
+                    <span>
+                      <i
+                        class="fa-regular fa-comment"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                    <span
+                      ><i
+                        class="fa-regular fa-share-from-square"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="bookmark">
+                    <span
+                      ><i
+                        class="fa-regular fa-bookmark"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="liked-by">
+                  <p>liked by <b>Vihan</b> and <b>2332 others </b></p>
+                </div>
+                <div class="captions">
+                  <p>
+                    <b>Atharva_gupta</b> Sky is blue , so as my Heart is ..💙
+                  </p>
+                </div>
+                <div class="comments-muted">view all 270 comments</div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="feed">
+            <div class="content">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Soni@parth</h3>
+                    <small
+                      >Indore, Madhyapradesh <br />
+                      ---
+                    </small>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img src="./Assets/img5.jpg" alt="" />
+                </div>
+                <div class="action-button">
+                  <div class="interaction-buttons">
+                    <span>
+                      <i
+                        onclick="Toggle(this)"
+                        id="btn2"
+                        class="fa-regular fa-heart"
+                      ></i
+                    ></span>
+                    <span>
+                      <i
+                        class="fa-regular fa-comment"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                    <span
+                      ><i
+                        class="fa-regular fa-share-from-square"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="bookmark">
+                    <span
+                      ><i
+                        class="fa-regular fa-bookmark"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="liked-by">
+                  <p>liked by <b>Vihan</b> and <b>2332 others </b></p>
+                </div>
+                <div class="captions">
+                  <p>
+                    <b>Atharva_gupta</b> Sky is blue , so as my Heart is ..💙
+                  </p>
+                </div>
+                <div class="comments-muted">view all 270 comments</div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="feed">
+            <div class="content">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>ThakurYashwant</h3>
+                    <small
+                      >Indore, Madhyapradesh <br />
+                      ---
+                    </small>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img src="./Assets/Wallpaper!.jpeg" alt="" />
+                </div>
+                <div class="action-button">
+                  <div class="interaction-buttons">
+                    <span>
+                      <i
+                        onclick="Toggle(this)"
+                        id="btn2"
+                        class="fa-regular fa-heart"
+                      ></i
+                    ></span>
+                    <span>
+                      <i
+                        class="fa-regular fa-comment"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                    <span
+                      ><i
+                        class="fa-regular fa-share-from-square"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="bookmark">
+                    <span
+                      ><i
+                        class="fa-regular fa-bookmark"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="liked-by">
+                  <p>liked by <b>Vihan</b> and <b>2332 others </b></p>
+                </div>
+                <div class="captions">
+                  <p>
+                    <b>Atharva_gupta</b> Sky is blue , so as my Heart is ..💙
+                  </p>
+                </div>
+                <div class="comments-muted">view all 270 comments</div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="feed">
+            <div class="content">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Soni@parth</h3>
+                    <small
+                      >Indore, Madhyapradesh <br />
+                      ---
+                    </small>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img src="./Assets/img7.jpeg" alt="" />
                 </div>
                 <div class="action-button">
                   <div class="interaction-buttons">
@@ -318,7 +521,12 @@
                 class="fa-solid fa-magnifying-glass"
                 style="color: #000000"
               ></i>
-              <input class="sea" type="" placeholder="Search Message" id="" />
+              <input
+                class="sea"
+                type="name"
+                placeholder="Search Message"
+                id=""
+              />
             </div>
             <div class="request">
               <a href="">
@@ -343,7 +551,7 @@
                   </div>
                 </div></a
               >
-              
+
               <a href="">
                 <div class="message">
                   <div class="profile-photo" style="width: 17%">
