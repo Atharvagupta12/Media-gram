@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mediagram</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="home.css" />
+  <body>
+    <section class="main">
+      <div class="navbar" id="navbar">
+        <a href="">
+          <div class="logo"><h1>Mediagram</h1></div></a
+        >
+        <div class="search">
+          <button>
+            <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+            &nbsp Search Your Inspiration, creators and projects
+          </button>
+        </div>
+        <div class="buttons">
+          <div class="loginin">
+            <a href=""><button>login-in</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!-- Sidebar -->
+        <div class="left">
+          <div class="sidebar">
+            <div class="usera">
+              <div class="profile-photo">
+                <img src="./Assets/42193.jpg" alt="" style="width: 180%" />
+              </div>
+              <div class="info">
+                <h1>Atharva_gupta</h1>
+              </div>
+            </div>
+            <br />
+
+            <div class="menu">
+              <div
+                class="menuitems"
+                style="background-color: rgb(159, 210, 210)"
+              >
+                <a href=""
+                  ><h3>
+                    <i class="fa-solid fa-house" style="color: #000000">
+                      &nbsp;
+                    </i>
+                    Home
+                  </h3></a
+                >
+              </div>
+              <div class="menuitems">
+                <a href=""
+                  ><h3>
+                    <i class="fa-solid fa-compass" style="color: #000000">
+                      &nbsp;
+                    </i>
+                    Explore
+                  </h3></a
+                >
+              </div>
+              <div class="menuitems">
+                <a href=""
+                  ><h3>
+                    <i class="fa-solid fa-message" style="color: #000000">
+                      &nbsp;
+                    </i>
+                    Messages
+                  </h3></a
+                >
+              </div>
+              <div class="menuitems">
+                <a href=""
+                  ><h3>
+                    <i class="fa-solid fa-moon" style="color: #000000">
+                      &nbsp;
+                    </i>
+                    Theme
+                  </h3></a
+                >
+              </div>
+              <div class="menuitems">
+                <a href=""
+                  ><h3>
+                    <i class="fa-solid fa-user" style="color: #000000">
+                      &nbsp;
+                    </i>
+                    Profile
+                  </h3></a
+                >
+              </div>
+              <div class="menuitems">
+                <a href=""
+                  ><h3>
+                    <i class="fa-solid fa-bars" style="color: #000000">
+                      &nbsp;
+                    </i>
+                    Settings
+                  </h3></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- feed -->
+        <div class="middle">
+          <h1>Discover your feed..</h1>
+          <div class="feed">
+            <div class="content">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Atharva Gupta</h3>
+                    <small
+                      >Indore, Madhyapradesh <br />
+                      ---
+                    </small>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img src="./Assets/images.jpeg" alt="" />
+                </div>
+                <div class="action-button">
+                  <div class="interaction-buttons">
+                    <span>
+                      <i
+                        onclick="Toggle(this)"
+                        id="btn"
+                        class="fa-regular fa-heart"
+                      ></i
+                    ></span>
+
+                    <span>
+                      <i
+                        class="fa-regular fa-comment"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+
+                    <span
+                      ><i
+                        class="fa-regular fa-share-from-square"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="bookmark">
+                    <span
+                      ><i
+                        class="fa-regular fa-bookmark"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="liked-by">
+                  <p>liked by <b>Vihan</b> and <b>2332 others </b></p>
+                </div>
+                <div class="captions">
+                  <p>
+                    <b>Atharva_gupta</b> Sky is blue , so as my Heart is ..💙
+                  </p>
+                </div>
+                <div class="comments-muted">view all 270 comments</div>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="feed">
+            <div class="content">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Vihan Patidar</h3>
+                    <small
+                      >Bhopal, Madhyapradesh <br />
+                      ---
+                    </small>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img src="./Assets/SamplePhoto_1.jpg" alt="" />
+                </div>
+                <div class="action-button">
+                  <div class="interaction-buttons">
+                    <span>
+                      <i
+                        onclick="Toggle(this)"
+                        id="btn1"
+                        class="fa-regular fa-heart"
+                      ></i
+                    ></span>
+                    <span>
+                      <i
+                        class="fa-regular fa-comment"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                    <span
+                      ><i
+                        class="fa-regular fa-share-from-square"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="bookmark">
+                    <span
+                      ><i
+                        class="fa-regular fa-bookmark"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="liked-by">
+                  <p>liked by <b>Vihan</b> and <b>2332 others </b></p>
+                </div>
+                <div class="captions">
+                  <p>
+                    <b>Atharva_gupta</b> Sky is blue , so as my Heart is ..💙
+                  </p>
+                </div>
+                <div class="comments-muted">view all 270 comments</div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="feed">
+            <div class="content">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Atharva Gupta</h3>
+                    <small
+                      >Indore, Madhyapradesh <br />
+                      ---
+                    </small>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img src="./Assets/img4.jpeg" alt="" />
+                </div>
+                <div class="action-button">
+                  <div class="interaction-buttons">
+                    <span>
+                      <i
+                        onclick="Toggle(this)"
+                        id="btn2"
+                        class="fa-regular fa-heart"
+                      ></i
+                    ></span>
+                    <span>
+                      <i
+                        class="fa-regular fa-comment"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                    <span
+                      ><i
+                        class="fa-regular fa-share-from-square"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="bookmark">
+                    <span
+                      ><i
+                        class="fa-regular fa-bookmark"
+                        style="color: #000000"
+                      ></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="liked-by">
+                  <p>liked by <b>Vihan</b> and <b>2332 others </b></p>
+                </div>
+                <div class="captions">
+                  <p>
+                    <b>Atharva_gupta</b> Sky is blue , so as my Heart is ..💙
+                  </p>
+                </div>
+                <div class="comments-muted">view all 270 comments</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- right space -->
+        <div class="right">
+          <div class="messages">
+            <div class="heading">
+              <h1>Messages</h1>
+            </div>
+            <div class="search-bar">
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #000000"
+              ></i>
+              <input class="sea" type="" placeholder="Search Message" id="" />
+            </div>
+            <div class="request">
+              <a href="">
+                <div class="message">
+                  <div class="profile-photo" style="width: 17%">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="message-body">
+                    <h5>Soniparth</h5>
+                    <p>Just woke up Bruh</p>
+                  </div>
+                </div></a
+              >
+              <a href="">
+                <div class="message">
+                  <div class="profile-photo" style="width: 17%">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="message-body">
+                    <h5>Vihan Patidar</h5>
+                    <p>How are Your ??</p>
+                  </div>
+                </div></a
+              >
+              
+              <a href="">
+                <div class="message">
+                  <div class="profile-photo" style="width: 17%">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="message-body">
+                    <h5>Msd_fan</h5>
+                    <p>Happy Birthday !</p>
+                  </div>
+                </div></a
+              >
+              <a href="">
+                <div class="message">
+                  <div class="profile-photo" style="width: 17%">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="message-body">
+                    <h5>Ankita@girll</h5>
+                    <p>How was your day</p>
+                  </div>
+                </div></a
+              >
+              <a href="">
+                <div class="message">
+                  <div class="profile-photo" style="width: 17%">
+                    <img src="./Assets/42193.jpg" alt="" />
+                  </div>
+                  <div class="message-body">
+                    <h5>Ajay-pvt</h5>
+                    <p>Image Sent</p>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- rough -->
+    <div class="comments">
+      <ul id="comment-list">
+        <!-- Existing comments will be displayed here -->
+      </ul>
+      <form id="comment-form">
+        <input type="text" id="comment-input" placeholder="Add a comment..." />
+        <button type="submit" id="comment-button">Post</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

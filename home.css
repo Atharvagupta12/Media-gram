@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    position: absolute;
+    top: 8%;
+height: 100%;
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    width: 60%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.left {
+
+  position: fixed;
+    width: 23vw;
+    height: 100vh;
+    background-color: rgba(217, 239, 245, 0.894);
+}
+.right{
+margin: 1rem 0;
+    width: 25%;
+    position: absolute;
+    left: 75%;
+}
+.middle{
+    margin: 2rem 0;
+position:absolute;
+left: 28%;
+    justify-content: center;
+}
+.middle h1{
+    margin-left: 8rem;
+}
+/* --sidebar-- */
+.sidebar{
+    
+   padding: 2rem;
+}
+.menuitems{
+    transition: ease-in 0.3s;
+    display: flex;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+
+.menuitems:hover{
+background-color: rgb(159, 210, 210);
+}
+.menuitems a{
+    text-decoration: none;
+    color: black;
+}
+
+/* --feed-- */
+
+.profile-photo{
+    width: 6%;
+
+}
+.profile-photo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.feed{
+    width:fit-content;
+    background-color: white;
+    border-radius:20px ;
+    padding-left:5rem ;
+    margin: 3rem ;
+    
+
+}
+.user{
+    display: flex;
+    gap:1rem;
+}
+.usera{
+    display: flex;
+    gap:2rem;
+}
+
+.photo img{
+    width: 45%;
+}
+.action-button{
+    padding: 4px 0;
+    display: flex;
+  gap: 17.5rem;
+}
+.interaction-buttons{
+    display: flex;
+    gap: 10px;
+
+}
+/* .interaction-buttons i:hover{
+    font-weight: 900;
+   color: red ;
+} */
+.fas{
+    font-weight: 900;
+    color: red;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+.liked-by{
+    font-weight: 200;
+}
+.captions{
+padding-bottom: 4px;
+}
+
+/* --Messaging-- */
+.heading{
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+.search-bar{
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px 25px;
+    background-color:rgba(217, 239, 245, 0.894);
+    display: flex;
+    gap: 1rem;
+}
+.sea{
+    color:rgb(159, 210, 210) ;
+    background-color:transparent;
+    border: none;
+}
+
+.request{
+    background-color: rgba(217, 239, 245, 0.894);
+    width: 70%;
+    margin: 1rem 0;
+    border-radius: 20px;
+}
+.message{
+    /* border-radius: 20px; */
+    padding: 10px 20px;
+
+    display: flex;
+    gap: 1rem;
+}
+
+.message-body h5{
+    color:black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* --navbar-- */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 1rem 0;
+    background: rgb(241, 245, 244);
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.buttons{
+    display: flex;
+}
+.search button{
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(159, 210, 210) ;
+    padding: 10px 35px;
+}
+.loginin button{
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(159, 210, 210) ;
+    border: none;
+    border-radius: 20px;
+    padding:10px  30px ;
+}
+.logo{
+}
