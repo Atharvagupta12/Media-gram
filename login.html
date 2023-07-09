@@ -35,34 +35,27 @@
         <input type="checkbox" id="chk" aria-hidden="true" />
 
         <div class="signup">
-          <form>
+          <form onsubmit="signup(event)">
             <label for="chk" aria-hidden="true">Sign up</label>
-            <input type="text" name="txt" placeholder="User name" required="" />
-            <input type="email" name="email" placeholder="Email" required="" />
-            <input
-              type="password"
-              name="pswd"
-              placeholder="Password"
-              required=""
-            />
-            <button>Sign up</button>
+            <input type="text" name="txt" id="username" placeholder="User name" required="" />
+            <input type="email" name="email" id="Email" placeholder="Email" required="" />
+            <input type="password" name="pswd" id="password" placeholder="Password" required="" />
+            <button id="sinupinp" value="Sign up">Sign up</button>
           </form>
         </div>
 
         <div class="login">
-          <form>
+          <form action="#" onsubmit="login(event)">
             <label for="chk" aria-hidden="true">Login</label>
-            <input type="email" name="email" placeholder="Email" required="" />
-            <input
-              type="password"
-              name="pswd"
-              placeholder="Password"
-              required=""
-            />
-            <button class="button2">Login</button>
+            <input type="email" id="email" name="email" placeholder="Email" required="" />
+            <input type="password" id="Password" name="pswd" placeholder="Password" required="" />
+            <button class="button2" id="signIn" value="Sign In">Login</button>
           </form>
         </div>
       </div>
     </section>
+
+    <script src="signup.js" type="module"></script>
+    <script src="login.js" type="module"></script>
   </body>
 </html>
