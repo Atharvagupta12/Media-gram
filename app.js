@@ -31,4 +31,3 @@ var icon = document.getElementById("icon");
         icon.src = "Assets/moon.png";
       }
     }
-
