@@ -35,7 +35,7 @@ window.login = function(e){
         console.log(success)
         alert("Loggined Successfully")
 
-        window.location.replace("Home.html")
+        window.location.replace("index.html")
     
     })
     .catch(function(err){
