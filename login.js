@@ -32,8 +32,10 @@ window.login = function(e){
     };
     signInWithEmailAndPassword(auth,obj.email,obj.password)
     .then(function(success){
-        console.log(user.uid)
+        console.log(success)
         alert("Loggined Successfully")
+
+        window.location.replace("Home.html")
     
     })
     .catch(function(err){
