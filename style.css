@@ -70,7 +70,7 @@ html *{
     background-color: rgb(159, 210, 210) ;
     padding: 10px 35px;
 }
-.loginin button{
+.login button{
     cursor: pointer;
     font-size: 18px;
     background-color: rgb(159, 210, 210) ;
